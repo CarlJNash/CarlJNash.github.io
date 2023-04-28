@@ -16,9 +16,15 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Setup Ruby, JRuby and TruffleRuby
-        uses: ruby/setup-ruby@v1.147.0
-        # uses: ruby/setup-ruby
+      # - name: Setup Ruby, JRuby and TruffleRuby
+      #   uses: ruby/setup-ruby@v1.147.0
+
+      # - name: Install brew
+      #   run: gem install brew
+
+      - name: Set up Homebrew
+        id: set-up-homebrew
+        uses: Homebrew/actions/setup-homebrew@master
 
       # Copies and installs Publish by John Sundell
       - name: Checkout Publish
