@@ -16,23 +16,29 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      # - name: Setup Ruby, JRuby and TruffleRuby
-      #   uses: ruby/setup-ruby@v1.147.0
-
-      # - name: Install brew
-      #   run: gem install brew
-
       - name: Set up Homebrew
         id: set-up-homebrew
         uses: Homebrew/actions/setup-homebrew@master
 
+      - name: Cache Homebrew Bundler RubyGems
+        id: cache
+        uses: actions/cache@v1
+        with:
+          path: ${{ steps.set-up-homebrew.outputs.gems-path }}
+          key: ${{ runner.os }}-rubygems-${{ steps.set-up-homebrew.outputs.gems-hash }}
+          restore-keys: ${{ runner.os }}-rubygems-
+
+      - name: Install Homebrew Bundler RubyGems
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: brew install-bundler-gems
+
       # Copies and installs Publish by John Sundell
       - name: Checkout Publish
         run: brew install publish
-        
+
       - name: Build Publish site
         run: publish generate
 
-      - name: Push Output folder to a git subtree for automatic deployment
-        run: git push origin `git subtree split --prefix Output main`:production --force
+      # - name: Push Output folder to a git subtree for automatic deployment
+      #   run: git push origin `git subtree split --prefix Output main`:production --force
       
