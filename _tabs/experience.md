@@ -66,7 +66,7 @@ Notable clients include: ___Virgin Money/Clydesdale Bank___, ___Roche___, ___Roy
 ### Ethos — Senior iOS Engineer — April 2022 — Present
 
 <div style="margin-left: 20px;" markdown=1>
-_[Ethos](https://theethosnetwork.com) are a social networking startup aimed at Gen Z. Focused on promoting social discussion, and inspiring and motivating a new generation._
+_[Ethos](https://theethosnetwork.com) is a social networking startup aimed at Gen Z. Focused on promoting social discussion, and inspiring and motivating a new generation._
 <details markdown=1>
 <summary>Highlights</summary>
 - Built out the platform and delivered the first release of the app to the store.
@@ -151,7 +151,7 @@ _A UK pension provider._
 
 ### NN4M (No Need 4 Mirrors) — iOS Engineer — Apr 2013 - Oct 2017
 <div style="margin-left: 20px;" markdown=1>
-_[NN4M](https://www.nn4m.co.uk) are a mobile app agency specialising in transactional retail apps._
+_[NN4M](https://www.nn4m.co.uk) is a mobile app agency specialising in transactional retail apps._
 <details markdown=1>
 <summary>Highlights</summary>
 - Provided a full in-house development service including design, development and project management.
