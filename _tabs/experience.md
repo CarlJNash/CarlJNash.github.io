@@ -81,7 +81,7 @@ _[Ethos](https://theethosnetwork.com) is a social networking startup aimed at Ge
 ### Waracle (Digital Agency) — Oct 2017 — March 2022
 
 <div style="margin-left: 20px;" markdown=1>
-_[Waracle](https://waracle.com) are one of the largest digital agencies in the UK, specialising in fintech and digital health._
+_[Waracle](https://waracle.com) is one of the largest digital agencies in the UK, specialising in fintech and digital health._
 
 Clients included:
 <details markdown=1>
