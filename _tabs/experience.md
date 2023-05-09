@@ -37,7 +37,7 @@ and ___Saks Fifth Avenue___.
 
 - __TECHNICAL__: Swift, SwiftUI, Combine, Async/Await, UIKit, Objective-C, Unit Testing, Git, CI
 
-- __SECURITY__: OAuth 2.0, JWT, HTTPS, Certificate Pinning, Biometrics, iOS Keychain, iOS Secure Enclave
+- __SECURITY__: OAuth 2.0, JWT, HTTPS, Certificate Pinning, Biometrics, iOS Keychain, iOS Secure Enclave, Proprietary authentication and authorisation, Obfuscation
 
 - __TOOLS__: Jira, Confluence, Trello, Azure, TestFlight, Bitrise, Jenkins, Fastlane, Firebase, Crashlytics, Swift Package Manager
 
@@ -63,14 +63,17 @@ _A social networking startup aimed at Gen Z. Focused on promoting social discuss
 
 _One of the largest digital agencies in the UK, specialising in fintech and digital health._
 
-I worked with the following clients:
+Clients included:
 
 ### [Virgin Money](https://uk.virginmoney.com/current-accounts/pca/app-features/) — Senior iOS Engineer
 
-- Developed Virgin Money’s Personal and Business banking apps.
-- Worked with 15-20 developers in squads of 1-3 developers, while also collaborating as a single iOS Chapter to coordinate all development work on a single codebase with minimal code conflict.
+_UK banking group._
+
+- Feature and platform development for Virgin Money’s Personal and Business banking apps.
+- Worked in squads of 1-3 iOS engineers while also collaborating as a single iOS Chapter of 15-20 iOS engineers to coordinate all development work on a single codebase ensuring minimal code conflict.
 - High standards for code quality, security, and testing.
-- Modularised a large legacy codebase into modern maintainable packages using Swift Packages.
+- Began modularising a large legacy codebase into modern maintainable packages using Swift Packages.
+- Ensured best practice for authentication and security, such as: SSL certificate pinning, encryption, and proprietary authentication and authorisation methods.
 
 ### [Roche (F. Hoffmann-La Roche Ltd)](https://www.roche.com) — Senior iOS Engineer
 
@@ -78,20 +81,22 @@ _Multinational healthcare company._
 
 - Involved in developing medical study apps for tracking participant involvement and gathering participant motion and sound for data analysis. Data was used for researching Alzheimer's and Parkinson’s diseases.
 - Extensive documentation and strict regulatory compliance for data security, privacy and audit logging purposes.
-Worked closely with Roche’s delivery team to ensure key deliverables achieved in accordance with strict project objectives.
+- Worked closely with Roche’s delivery team to ensure key deliverables achieved in accordance with strict project objectives.
 
 ### Cutitronics — Senior iOS Engineer
 
 _Technology company focused on skin care and beauty._
 
-- Solo developer on an 8-week project to deliver a fully working app for gathering user information.
-- Worked with low-level camera APIs to configure the device camera to the client’s specific requirements.
+- Solo developer on an 8-week project.
+- The app was designed to allow trained professionals to gather patient information and skin characteristics.
+- Worked with low-level camera APIs to configure the device camera to specific requirements for capturing raw images of the patients skin.
+- Uploaded this data securely to the clients (AWS) storage for processing.
 
 ### [Apex Rides](https://apexrides.com) — Lead iOS Engineer
 
 _Smart exercise bike with companion app._
 
-- One of two developers delivering a companion app for Apex’s exercise bike.
+- One of two developers delivering the firs release of a companion app for Apex Rides exercise bike.
 - Implemented Bluetooth mesh connectivity between the bike and app, which provided live telemetry data from the bike such as speed, power and cadence.
 - Responsible for app architecture, investigating service providers (e.g. video hosting), and designing and building app features.
 - Regular communication with founders and hardware suppliers.
@@ -108,18 +113,17 @@ _UK pension provider._
 
 ### [Ryder Cup](https://apps.apple.com/gb/app/ryder-cup/id1534371975) — iOS Engineer
 
-- Collaborated with a US-based development agency and other third parties to prepare the app for the 2018 Ryder Cup in Paris.
+- Collaborated with a US-based development agency and other third parties to update the existing app for the 2018 Ryder Cup in Paris.
 - Tasked with adding additional app features based around interactive real-time on-course functionality.
-- Short but fast-paced project, working with a distributed team on a shared codebase.
+- Short but fast-paced project, working with a distributed (US/Europe) team on a shared codebase.
 
 ### CYBG (Clydesdale Yorkshire Banking Group) — iOS Engineer
 
-_UK Banking App (Now Virgin Money)._
+_UK Banking App (Now [Virgin Money](https://uk.virginmoney.com/current-accounts/pca/app-features/))._
 
-- Worked as part of an on-site cross-platform development team.
-- Involved in all client-side aspects of the mobile banking app family: Clydesdale Bank, Yorkshire Bank and the B App.
-- Responsible for implementing Open Banking (PSD2) feature for the B App to allow connectivity to third-party bank accounts.
-- Ensured best practice for authentication and security such as: SSL certificate pinning, encryption, OAuth 2.0, and proprietary authentication methods.
+- Worked as part of an on-site cross-platform development team for the mobile banking app family: _Clydesdale Bank_, _Yorkshire Bank_ and _B App_.
+- Responsible for implementing Open Banking (PSD2) feature for the _B App_ to allow connectivity to third-party bank accounts.
+- Ensured best practice for authentication and security, such as: SSL certificate pinning, encryption, OAuth 2.0, and proprietary authentication and authorisation methods.
 
 </div>
 
@@ -129,15 +133,15 @@ _Mobile app agency specialising in transactional retail apps._
 
 - Provided a full in-house development service including design, development and project management.
 - Quickly progressed from junior to senior and lead engineer.
-- Assumed responsibility for building and nurturing the development team, in particular maturing the team and improving its working methods.
+- Assumed responsibility for building and nurturing the development team, in particular maturing the team and improving working methods.
 - Instrumental in ensuring an effective and reliable development environment through:
-- Mentoring.
-- Coding standards.
-- Regular iOS team meetings.
-- Continuous integration (Jenkins).
-- Pair programming.
-- Workflow automation.
-- Clients included: Selfridges, Saks Fifth Avenue, Debenhams, Mothercare, River Island, House of Fraser, Coast, Oasis, Warehouse, Karen Millen, and The Body Shop.
+  - Mentoring.
+  - Coding standards.
+  - Regular iOS team meetings.
+  - Continuous integration (Jenkins).
+  - Pair programming.
+  - Workflow automation.
+- Clients included: _Selfridges_, _Saks Fifth Avenue_, _Debenhams_, _Mothercare_, _River Island_, _House of Fraser_, _Coast_, _Oasis_, _Warehouse_, _Karen Millen_, and _The Body Shop_.
 
 ## EXPERIENCE — Other
 
