@@ -10,15 +10,34 @@ toc: true
 
 <div style="margin-left: 20px;" markdown=1>
 
-A senior iOS engineer with lead experience, developing mobile apps professionally since 2013.
+As you may have read in my [about](./about.md) page, my previous career was as a vehicle mechanic.
 
-Worked with clients ranging from small startups to multi-national corporations in various sectors including: retail, fintech, digital health and social networking.
+### Beginning
 
-Experience both as a solo developer and as part of large multi-platform teams, as well as leading small iOS development teams.
+My dev career started in 2013 when I got my first break as a graduate iOS developer at [NN4M](#nn4m-no-need-4-mirrors--ios-engineer--apr-2013---oct-2017).
 
-Working pragmatically, understands how to deliver what the client needs. Utilises tactical and strategic solutions to meet clients’ priorities and expectations.
+Since then I've progressed from grad, to junior, to senior, and also dabbled with lead developer roles.
 
-Possesses the technical and communication skills required to be a key member of a successful software development team. Experience of taking many successful apps from conception to App Store.
+### Sectors
+
+I've worked in a few different sectors; including retail, digital health, fintech and most recently social networking.
+
+I've worked as a solo developer, on small 1-3 dev teams, and in larger 30+ dev teams.
+
+### Strengths
+
+My strengths lie in being a good all-round software engineer and team member. I don't concern myself with being the "smartest" developer in the room that can write the cleverest algorithms in a one-liner, or abstract the heck out of a networking layer to make it work for every possible scenario at the cost of readability and maintainability.
+
+If I had to pick some words to describe myself as a software engineer, I'd say:
+
+- Pragmatic
+  - Understanding when to use a tactical or a strategic approach to get the work done, depending on the needs of the client and the team at the time.
+    - Strategic: If we need to implement an important new feature that is going to be a big part of a future release, then this probably requires a strategic approach to plan it out and ensure that users have the best experience when first using the feature and we won't need to be shipping regular updates and hot-fixes to resolve issues once it's out in the wild.
+    - Tactical: If users are experiencing an issue with the app or we're getting a lot of negative feedback about a feature and we need to resolve this quickly, then this probably requires a tactical approach to get a quick fix out that improves the situation quickly, while we work on a more refined long-term solution.
+- Wholistic
+  - Look at the bigger picture \<COMPLETE THIS>
+
+### Clients
 
 Notable clients include:
 ___Virgin Money/Clydesdale Bank___,
@@ -30,6 +49,16 @@ ___River Island___,
 ___House of Fraser___,
 ___Debenhams___,
 and ___Saks Fifth Avenue___.
+
+<!-- A senior iOS engineer with lead experience, developing mobile apps professionally since 2013.
+
+Worked with clients ranging from small startups to multi-national corporations in various sectors including: retail, fintech, digital health and social networking.
+
+Experience both as a solo developer and as part of large multi-platform teams, as well as leading small iOS development teams.
+
+Working pragmatically, understands how to deliver what the client needs. Utilises tactical and strategic solutions to meet clients’ priorities and expectations.
+
+Possesses the technical and communication skills required to be a key member of a successful software development team. Experience of taking many successful apps from conception to App Store. -->
 
 </div>
 
